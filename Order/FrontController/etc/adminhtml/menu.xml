@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="Order_FrontController::parent" title="Order FrontController" module="Order_FrontController" sortOrder="100" resource="Order_FrontController::parent"/>
+        <add id="Order_FrontController:front" translate="title" title="Front" module="Order_FrontController" sortOrder="1001" parent="Order_FrontController::parent" action="front/index" resource="Order_FrontController::front"/>
+    </menu>
+</config>
